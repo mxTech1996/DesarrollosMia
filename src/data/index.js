@@ -1,19 +1,16 @@
-
-export const pageName = "Desarollos Mia";
-export const primaryColor = "#000000";
-export const backgroundColor = "#FFFFFF";
+export const pageName = 'Desarollos Mia';
+export const primaryColor = '#1D999D';
+export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
   return {
     backgroundColor: color,
-  }
-}
-
-
+  };
+};
 
 export const navData = [
   {
     href: '/#products',
-    label: "Let's start!",
+    label: 'Our Courses',
   },
   {
     href: '/#our-services',
@@ -22,6 +19,10 @@ export const navData = [
   {
     href: '/#references',
     label: 'References',
+  },
+  {
+    href: '/#know-us',
+    label: 'Know Us',
   },
 ];
 
